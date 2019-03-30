@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 TASKWARRIOR=task # v2.5.1
 EDITOR=geany
-NOTES=~/data/man/.tasknote
+NOTES=/path/to/notes
 
 RE='^[0-9]+$'
 if ! [[ "$1" =~ $RE ]]; then
