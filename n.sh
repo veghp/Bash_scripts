@@ -16,6 +16,6 @@ if [ "$UUID" == "" ]; then
   exit 65
 fi
 
-$EDITOR $NOTES/$UUID.txt
+$EDITOR $NOTES/$UUID.txt &
 
 exit 0
